@@ -115,7 +115,18 @@
         </widget>
        </item>
        <item>
-        <widget class="QComboBox" name="comboBox_4"/>
+        <widget class="QComboBox" name="comboBox_4">
+         <item>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </item>
+        </widget>
        </item>
       </layout>
      </item>
@@ -129,7 +140,51 @@
         </widget>
        </item>
        <item>
-        <widget class="QComboBox" name="comboBox"/>
+        <widget class="QComboBox" name="comboBox">
+         <property name="currentIndex">
+          <number>3</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>1200</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2400</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4800</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>9600</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>19200</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>38400</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>57600</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>115200</string>
+          </property>
+         </item>
+        </widget>
        </item>
       </layout>
      </item>
@@ -143,7 +198,33 @@
         </widget>
        </item>
        <item>
-        <widget class="QComboBox" name="comboBox_3"/>
+        <widget class="QComboBox" name="comboBox_3">
+         <item>
+          <property name="text">
+           <string>No parity</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Even parity</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Odd parity</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Space parity</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Mark parity</string>
+          </property>
+         </item>
+        </widget>
        </item>
       </layout>
      </item>
@@ -157,7 +238,31 @@
         </widget>
        </item>
        <item>
-        <widget class="QComboBox" name="comboBox_2"/>
+        <widget class="QComboBox" name="comboBox_2">
+         <property name="currentIndex">
+          <number>3</number>
+         </property>
+         <item>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>7</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>8</string>
+          </property>
+         </item>
+        </widget>
        </item>
       </layout>
      </item>
@@ -171,7 +276,23 @@
         </widget>
        </item>
        <item>
-        <widget class="QComboBox" name="comboBox_5"/>
+        <widget class="QComboBox" name="comboBox_5">
+         <item>
+          <property name="text">
+           <string>No flow control</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Hardware flow control (RTS/CTS)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Software flow control (XON/XOFF)</string>
+          </property>
+         </item>
+        </widget>
        </item>
       </layout>
      </item>
@@ -243,7 +364,7 @@
     <number>1</number>
    </attribute>
    <widget class="QWidget" name="dockWidgetContents_3">
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>15</x>
