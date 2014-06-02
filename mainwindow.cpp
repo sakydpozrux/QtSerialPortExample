@@ -62,7 +62,7 @@ void MainWindow::on_pushButton_clicked()
     QString line_to_send = ui->lineEdit->text();
     if (line_to_send == "dupa") line_to_send = "sam jestes glupi";
 
-    QByteArray data = QByteArray((line_to_send + '\n').toStdString().c_str());
+    QByteArray data = QByteArray((line_to_send + '\n').toAscii());
     serial.write(data);
     readData();
 
